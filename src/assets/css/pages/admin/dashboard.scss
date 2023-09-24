@@ -1,0 +1,70 @@
+#AdminDashboard{
+    .topRow{
+        background: #fcfdfd;
+        border: 0.5px solid #d6dae9;
+        box-shadow: 0 4px 8px hsla(0,0%,44.7%,.08);
+        border-radius: 8px;
+        padding: 24px;
+        display: flex;
+    }
+
+    .singleBox{
+        width: 33%;
+        border-right: 1px solid #d6dae9;
+        padding-left: 16px;
+    }
+
+    .singleBox:last-child{
+        border-right: 0px !important;
+    }
+
+    .graphBackground{
+        background: #fcfdfd;
+        border: 0.5px solid #d6dae9;
+        box-shadow: 0 4px 8px hsla(0,0%,44.7%,.08);
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+    .dateField{
+        background: #fcfdfd;
+        border: 1px solid #d6dae9;
+        border-radius: 4px;
+        padding: 10px 16px;
+    }
+}
+
+#AdminMerchants{
+    thead tr{
+        border-top-right-radius: 4px;
+        border-top-left-radius : 4px;
+    }
+
+    tbody{
+        background: #FFFFFF;
+    }
+
+    .table-responsive {
+    border-radius: 6px;
+    min-height   : 200px;
+    overflow     : hidden;
+    border-radius: 6px;
+    box-shadow   : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    th{
+        border-bottom: 0px !important;
+    }
+
+    tbody tr{
+        th, td{
+            padding: 32px 14px;
+        }
+    }
+
+    tbody tr:hover{
+        background-color: #f5f7fc;
+        cursor          : pointer;
+    }
+
+}
